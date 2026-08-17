@@ -1,0 +1,224 @@
+{% include "header.html" %}
+<!-- Page Content-->
+<div class="container px-5 my-5">
+    <div class="text-center mb-5">
+        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+    </div>
+    <div class="row gx-5 justify-content-center">
+        <div class="col-lg-11 col-xl-9 col-xxl-8">
+            <!-- Experience Section-->
+            <section>
+                <div class="d-flex align-items-center justify-content-between mb-4">
+                    <h2 class="text-primary fw-bolder mb-0">Experience</h2>
+                    <!-- Download resume button-->
+                    <!-- Note: Set the link href target to a PDF file within your project-->
+                    <a class="btn btn-primary px-4 py-3" href="{{ url_for('download') }}">
+                        <div class="d-inline-block bi bi-download me-2"></div>
+                        Download Resume
+                    </a>
+                </div>
+                <!-- Experience Card 1-->
+                <div class="card shadow border-0 rounded-4 mb-5">
+                    <div class="card-body p-5">
+                        <div class="row align-items-center gx-5">
+                            <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                <div class="bg-light p-4 rounded-4">
+                                    <div class="text-primary fw-bolder mb-2">2025</div>
+                                    <div class="small fw-bolder">Python Project</div>
+                                    <div class="small text-muted">Data Analysis</div>
+                                    <div class="small text-muted">Predictive Modeling</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div>
+                                    <ul>
+                                        <li>Collaborated in a team of 4 to collect, clean, and analyze 3 datasets using
+                                            Python (Pandas, NumPy), delivering actionable insights that drove informed
+                                            decision-making.
+                                        </li>
+                                        <li>Applied machine learning techniques to train and evaluate predictive models
+                                            using Scikit-learn.
+                                        </li>
+                                        <li>Visualized data insights through charts and dashboards using Matplotlib and
+                                            Seaborn.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience Card 2-->
+                <div class="card shadow border-0 rounded-4 mb-5">
+                    <div class="card-body p-5">
+                        <div class="row align-items-center gx-5">
+                            <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                <div class="bg-light p-4 rounded-4">
+                                    <div class="text-primary fw-bolder mb-2">2025</div>
+                                    <div class="small fw-bolder">Statistical Control & Optimization Project</div>
+                                    <div class="small text-muted">Data optimization</div>
+                                    <!--                                    <div class="small text-muted">Gotham City, NY</div>-->
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div>
+                                    <ul>
+                                        <li>Applied statistical process control (SPC) techniques to monitor and analyze
+                                            data quality and variability.
+                                        </li>
+                                        <li>Optimized model parameters using optimization algorithms to improve accuracy
+                                            and efficiency by 15%.
+                                        </li>
+                                        <li>Documented methodology and delivered a comprehensive report with visual data
+                                            summaries, enabling data-driven decision-making and achieving 5 measurable
+                                            improvements.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Education Section-->
+            <section>
+                <h2 class="text-secondary fw-bolder mb-4">Education</h2>
+                <!-- Education Card 1-->
+                <div class="card shadow border-0 rounded-4 mb-5">
+                    <div class="card-body p-5">
+                        <div class="row align-items-center gx-5">
+                            <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                <div class="bg-light p-4 rounded-4">
+                                    <div class="text-secondary fw-bolder mb-2">2025 - 2029</div>
+                                    <div class="mb-2">
+                                        <div class="small fw-bolder">National Taiwan University</div>
+                                        <div class="small text-muted">Taipei, Taiwan</div>
+                                    </div>
+                                    <div class="fst-italic">
+                                        <div class="small text-muted">Undergraduate </div>
+                                        <div class="small text-muted">Economics</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div>Relevant Coursework: Introduction to Statistical Control and Optimization, Artificial Intelligence Programming with Python, Calculus
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education Card 2-->
+<!--                <div class="card shadow border-0 rounded-4 mb-5">-->
+<!--                    <div class="card-body p-5">-->
+<!--                        <div class="row align-items-center gx-5">-->
+<!--                            <div class="col text-center text-lg-start mb-4 mb-lg-0">-->
+<!--                                <div class="bg-light p-4 rounded-4">-->
+<!--                                    <div class="text-secondary fw-bolder mb-2">2011 - 2015</div>-->
+<!--                                    <div class="mb-2">-->
+<!--                                        <div class="small fw-bolder">ULA</div>-->
+<!--                                        <div class="small text-muted">Los Angeles, CA</div>-->
+<!--                                    </div>-->
+<!--                                    <div class="fst-italic">-->
+<!--                                        <div class="small text-muted">Undergraduate</div>-->
+<!--                                        <div class="small text-muted">Computer Science</div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="col-lg-8">-->
+<!--                                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,-->
+<!--                                    voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed-->
+<!--                                    aliquam non voluptate corrupti excepturi maxime porro fuga.-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </section>
+            <!-- Divider-->
+            <div class="pb-5"></div>
+            <!-- Skills Section-->
+            <section>
+                <!-- Skillset Card-->
+                <div class="card shadow border-0 rounded-4 mb-5">
+                    <div class="card-body p-5">
+                        <!-- Professional skills list-->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                    <i class="bi bi-tools"></i></div>
+                                <h3 class="fw-bolder mb-0"><span
+                                        class="text-gradient d-inline">Professional Skills</span></h3>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                        Data Manipulation
+                                    </div>
+                                </div>
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                        Machine Learning
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                        A/B Testing
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3">
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                        Data Visualization
+                                    </div>
+                                </div>
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                        Data Modeling
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">
+                                       Statistical Analysis
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Languages list-->
+                        <div class="mb-0">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                    <i class="bi bi-code-slash"></i></div>
+                                <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Tools</span></h3>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SQL</div>
+                                </div>
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">R</div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-3">
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Tableau</div>
+                                </div>
+                                <div class="col mb-4 mb-md-0">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Power BI</div>
+                                </div>
+                                <div class="col">
+                                    <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Excel</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+</main>
+{% include "footer.html" %}
